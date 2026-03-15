@@ -1,0 +1,13 @@
+{
+  "name": "medicine-database",
+  "version": "1.0.0",
+  "description": "MongoDB medicine database using Mongoose",
+  "main": "src/db.js",
+  "scripts": {
+    "seed": "node src/seed.js",
+    "test": "node --test src/medicine.test.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  }
+}
